@@ -4,7 +4,7 @@
         * UC: P2                                        *
         * @author Cláudio Ferreira                      *
         * @version 1.0                                  *
-        * Data: JNovembro de 2019                       *
+        * Data: Novembro de 2019                        *
         * Descrição: exercício prático                  *
         *************************************************/
 

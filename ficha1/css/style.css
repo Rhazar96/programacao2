@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+.header {
+    height: 300px;
+    position: top;
+}
+
+body {
+    background-color: #d8d8d8;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

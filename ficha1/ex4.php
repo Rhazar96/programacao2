@@ -1,6 +1,6 @@
 <?php
        /************* DESCRIÇÃO DO DOCUMENTO ************
-        * Nome do ficheiro: ex2.php                     *
+        * Nome do ficheiro: ex3.php                     *
         * UC: P2                                        *
         * @author Cláudio Ferreira                      *
         * @version 1.0                                  *
@@ -24,12 +24,10 @@
 <body>
 <div class=header> </div>
 
-<p>
 <?php
-        echo "Adoro Programar em PHP!<br>";
-        echo 'Adoro Programar em PHP!';
+        echo "<h1>Cláudio Ferreira</h1>";
+        echo "<p>E estudo em <strong>Coimbra</strong>!</p>"
     ?>
-</p>
 
 </body>
 

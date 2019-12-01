@@ -1,44 +1,50 @@
+<?php
+       /************* DESCRIÇÃO DO DOCUMENTO ************
+        * Nome do ficheiro: ex1.php                     *
+        * UC: P2                                        *
+        * @author Cláudio Ferreira                      *
+        * @version 1.0                                  *
+        * Data: Novembro de 2019                        *
+        * Descrição: exercício prático                  *
+        *************************************************/
 
-<!doctype html>
-<html lang="PT">
+?>
 
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+<meta charset="utf-8">
+<title> Exercícios de P2 - Cláudio Ferreira </title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
    
-    <head> 
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title> Exercicio 1</title>
-    </head>
-
-
      
 
     <body>
+    <div class=header> </div>
 
-    <?php
- 
-    $num = @$_GET["num"];
+        <?php
+        $num = @$_GET["num"];
 
-    if($num > 100)  {
-    echo "O $num é maior que 100";
-    } elseif ($num == 100) {
-    echo "o $num é igual a 100";  
-    } else {
-    echo "o $num é menor que 100";
-    }
+        if($num > 100)  {
+         echo "<p>O $num é maior que 100</p>";
+        } elseif ($num == 100) {
+        echo "<p>o $num é igual a 100</p>";  
+         } else {
+         echo "<p>o $num é menor que 100</p>";
+        }   
+        ?>        
 
-?>        
-
+        
         <form method="GET">
 
-            <input type="number" name="num"> <br> 
-            <input type="submit" value="Enviar dados"> <br>
-
-            
+            <p> <input type="number" name="num">    </p>
+            <p> <input type="submit" value="Enviar dados">   </p>
+        
         </form>     
-
+        
 
 
 

@@ -1,20 +1,30 @@
+<?php
+       /************* DESCRIÇÃO DO DOCUMENTO ************
+        * Nome do ficheiro: ex2.php                     *
+        * UC: P2                                        *
+        * @author Cláudio Ferreira                      *
+        * @version 1.0                                  *
+        * Data: Novembro de 2019                        *
+        * Descrição: exercício prático                  *
+        *************************************************/
 
-<!doctype html>
-<html lang="PT">
+?>
 
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+<meta charset="utf-8">
+<title> Exercícios de P2 - Cláudio Ferreira </title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
    
-    <head> 
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title> Exercicio 1</title>
-    </head>
 
     <body>
+    <div class=header> </div>
         
-        <form name="numero" method="POST">
+        <form name="numero" method="POST" class=tipografia>
 
             <input type="number" name="a"> <br> 
             <input type="number" name="b"> <br> 
@@ -36,10 +46,10 @@
 
 
  $soma = $a + $c;
- echo  "A soma de $a e $c é $soma. ";
+ echo  "<p>A soma de $a e $c é $soma. </p>";
 
  $multi = $b * $d;
- echo "A multiplicação de $b e $d é $multi";
+ echo "<p> A multiplicação de $b e $d é $multi </p>";
 
 ?>
 

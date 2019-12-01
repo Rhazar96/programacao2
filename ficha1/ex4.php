@@ -1,6 +1,6 @@
 <?php
        /************* DESCRIÇÃO DO DOCUMENTO ************
-        * Nome do ficheiro: ex3.php                     *
+        * Nome do ficheiro: ex4.php                     *
         * UC: P2                                        *
         * @author Cláudio Ferreira                      *
         * @version 1.0                                  *

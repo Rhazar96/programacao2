@@ -25,16 +25,25 @@
 <div class=header> </div>
 
 <?php
+		$a = 4; $c = 6;
+           
+        echo "<p>4 é igual a 5?</p>";
+        if($a == 5) {echo '<p>Verdadeiro</p>';} else {echo '<p>Falso</p>';}
 
-$multi = (4+3)*(15-2);
-$divisao = 40/9;
-$resto = 40%3;
+        echo "<p>4 é diferente de 6?</p>";
+        if($a != 6) {echo '<p>Verdadeiro</p>';} else {echo '<p>Falso</p>';}
 
-echo "<p> (4+3)*(15-2) = ".$multi." </p>";
-echo "<p> 40/9 = ".$divisao."</p> ";
-echo "<p> 40%3 = ".$resto;" </p>";
+        echo "<p>4 é maior que 5?</p>";
+        if($a > 5) {echo '<p>Verdadeiro</p>';} else {echo '<p>Falso</p>';}
 
-?>
+        echo "<p>(4 é menor que 5) e (6 é maior que 10)?</p>";
+        if($a < 5) {echo '<p>Verdadeiro</p>';} else {echo '<p>Falso</p>';}
+           
+        echo "<p>Negação ((40 é menor que 50) ou (60 é maior que 90))?</p>";
+        if(!(40 < 50 || 60 > 90)) {echo '<p>Verdadeiro</p>';} else {echo '<p>Falso</p>';}
+		?>
+    
+       
 
 </body>
 

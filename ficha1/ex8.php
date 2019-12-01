@@ -25,16 +25,18 @@
 <div class=header> </div>
 
 <?php
+            $primeira = round('4,78905',2);
+            $segunda = round('4,7',2);
+            $terceira = round('5,8954',2);
+            $quarta = round('5',2);
+        ?>
 
-$multi = (4+3)*(15-2);
-$divisao = 40/9;
-$resto = 40%3;
-
-echo "<p> (4+3)*(15-2) = ".$multi." </p>";
-echo "<p> 40/9 = ".$divisao."</p> ";
-echo "<p> 40%3 = ".$resto;" </p>";
-
-?>
+    <p>   Arredondamentos com duas casa decimais: </p>
+    <p>    4,78905= <?php echo number_format((float)$primeira, 2, '.', '') ?>   </p>
+    <p>    4,7=  <?php echo number_format((float)$segunda, 2, '.', '')?>    </p>
+    <p>    5,8954= <?php  echo number_format((float)$terceira, 2, '.', '')?>   </p>
+    <p>    5= <?php echo number_format((float)$quarta, 2, '.', '')?>    </p>
+   
 
 </body>
 
